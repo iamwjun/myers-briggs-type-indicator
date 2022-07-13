@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content_prompt *,.eject_prompt_mask *{margin: 0px;padding: 0px;list-style:none;text-decoration: none;font-family: Hiragino Sans GB,Arial,Helvetica,"Microsoft YaHei",sans-serif;font-size: 16px;}
+.content_prompt,.eject_prompt_mask img{border: 0;}
+.content_prompt,.eject_prompt_mask input,select{outline:none;border: 0;-webkit-appearance:none; }
+.content_prompt,.eject_prompt_mask a{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+/*加载字体图标*/
+@font-face {font-family: "iconfont";
+  src: url('../Font/prompt.eot'); 
+  src: url('../Font/prompt.eot?#iefix') format('embedded-opentype'),
+  url('../Font/prompt.woff') format('woff'),
+  url('../Font/prompt.ttf') format('truetype'),
+  url('../Font/prompt.svg#iconfont') format('svg');
+}
+
+.icon-prompt {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*
+内容提示
+====================================================================
+*/
+
+.content_prompt{color: #999;text-align: center; width: 92%;padding: 0px 4%;}
+.content_prompt .prompt_info{margin-top: 20%;height: auto;overflow: hidden;}
+.content_prompt .prompt_info img{max-width: 100px;}
+.content_prompt .prompt_info p{margin-bottom: 10px;font-size: 16px;}
+
+.content_prompt .operation_button{height: auto;overflow: hidden;margin-top: 20px;text-align: center;}
+.content_prompt .operation_button a{display:inline-block;width: 46%;height: 40px;line-height: 40px;border-radius: 5px;margin: 0px 1%; box-sizing: border-box;vertical-align: bottom;font-size: 16px;}
+.content_prompt .operation_button a.style_first{background: #03a9f4;color: #fff;border: 1px solid #03a9f4;overflow: hidden;}
+.content_prompt .operation_button a.style_second{border: 1px solid #d7d7d7;color: #a1a1a1;}
+
+.content_prompt .operation_button a.icon-prompt{border: 1px solid #d7d7d7;color: #a1a1a1;}
+.content_prompt .operation_button a.icon-prompt:before{content: "\e605";color: #a1a1a1;font-size: 14px;margin-right: 10px;}
+
+
+/*
+弹出提示框
+====================================================================
+*/
+.eject_prompt_mask{width: 100%;height: 100%;position: fixed;left: 0px;top: 0px;background: rgba(0,0,0,0.5);z-index: 99990;display: none;}
+.eject_prompt_mask .eject_prompt{width: 80%;height: auto;overflow: hidden;background: #fff;border-radius: 10px;text-align: center;box-sizing:border-box;position: absolute;left: 10%;top: 30%;z-index: 99991;}
+.eject_prompt_mask .eject_prompt h2{font-weight: inherit;color: #333;font-size: 18px;height: 2em;line-height: 2em;overflow: hidden;}
+.eject_prompt_mask .eject_prompt .text{color: #666;font-size: 14px;overflow: hidden;padding: 0px 5%;min-height: 2em;}
+.eject_prompt_mask .eject_prompt .button{height: 40px;line-height: 40px;overflow: hidden;border-top: 1px solid #dfdfdf;margin-top: 10px;color: #03a9f4;font-size: 16px;}
+
+/*confirm提示框*/
+.eject_prompt_mask .confirm .button span{display: inline-block;height: 40px;line-height: 40px;overflow: hidden;float: left;box-sizing:border-box;width: 50%;}
+.eject_prompt_mask .confirm .button span.yes{color: #666;}
+.eject_prompt_mask .confirm .button span.no{color: #03a9f4;border-left: 1px solid #dfdfdf;}
+
+/*添加购物车成功*/
+.eject_prompt_mask .add_cart{width: 80%;height: auto;background: #fff;border-radius: 10px;text-align: center;box-sizing:border-box;position: absolute;left: 10%;top: 30%;z-index: 99991;overflow:visible;}
+.eject_prompt_mask .add_cart .package{height: auto;position: relative;}
+.eject_prompt_mask .add_cart .package .success_pic{width: 100px;height: 100px;background: url('../Images/icon_08.png') no-repeat; background-size: 100% 100%;margin: -40px auto 0px;}
+.eject_prompt_mask .add_cart .package .close{position: absolute;right: -13px;top: 30px;width: 24px;height: 24px;line-height: 24px;display: block;border: 3px solid #7f7f7f;border-radius: 50%;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.eject_prompt_mask .add_cart .package .close i{display: block;background: #03a9f4;color: #fff;border: 1px solid #fff;border-radius: 50%;width: 22px;height:22px;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+.eject_prompt_mask .add_cart .text{padding: 10px 5%;height: auto;font-size: 16px;color: #999;}
+.eject_prompt_mask .add_cart .button{width: 40%;height: 40px;line-height: 40px;overflow: hidden;float:left;margin: 0px auto 20px 6.9999%;background:#03a9f4;color: #fff;border-radius: 5px;font-size: 16px;border-top: 0;}

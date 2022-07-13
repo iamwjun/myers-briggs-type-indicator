@@ -1,0 +1,234 @@
+<?xml-stylesheet type="text/xsl" href="docs.xsl"?><javascript fileName="plugins.js">
+    <object_literal name="plugins" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+        <function name="validate" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>表单验证及加载按钮所需信息</description>
+            <property name="loading_mask_html" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+            </property>
+            <property name="this" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <property name="formId" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+                <property name="button_box" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+                <property name="button_class" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="loading_mask" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="loading_mask_html" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+            </property>
+        </function>
+        <function name="toastr" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>信息提示插件</description>
+            <parameters>
+                <parameter name="options" type="Object">
+                    <description>参数</description>
+                </parameter>
+            </parameters>
+            <object_literal name="defaults" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <property name="closeButton" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Boolean">
+                </property>
+                <property name="debug" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Boolean">
+                </property>
+                <property name="progressBar" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Boolean">
+                </property>
+                <property name="positionClass" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="showDuration" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="hideDuration" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="timeOut" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="extendedTimeOut" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="showEasing" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="hideEasing" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="showMethod" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="hideMethod" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="mode" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;prompt_title&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;prompt_info&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;location&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Boolean">
+                </property>
+            </object_literal>
+            <property name="options" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="toastr" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <object_literal name="options" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    <property name="closeButton" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="debug" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="progressBar" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="positionClass" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="showDuration" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="hideDuration" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="timeOut" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="extendedTimeOut" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="showEasing" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="hideEasing" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="showMethod" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                    <property name="hideMethod" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                    </property>
+                </object_literal>
+            </property>
+            <property name="location" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <property name="href" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+            </property>
+        </function>
+        <function name="Validform" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>Validform验证表单</description>
+            <parameters>
+                <parameter name="options" type="Object">
+                    <description>参数对象</description>
+                </parameter>
+            </parameters>
+            <object_literal name="defaults" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <property name="formName" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="tiptype" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Number">
+                </property>
+                <property name="ajaxPost" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Boolean">
+                </property>
+                <property name="showAllError" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Boolean">
+                </property>
+                <property name="refreshBtn" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+            </object_literal>
+            <property name="_opt" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </function>
+        <function name="singleImageUpload" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>单图上传</description>
+            <parameters>
+                <parameter name="options" type="Object">
+                    <description>参数对象</description>
+                </parameter>
+            </parameters>
+            <property name="uploader" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </function>
+        <function name="BatchSequence" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>批量更新排序</description>
+            <parameters>
+                <parameter name="options" type="Object">
+                    <description>参数对象</description>
+                </parameter>
+            </parameters>
+            <object_literal name="defaults" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <property name="&apos;clickObj&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;sortObj&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;idObj&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;url&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+                <property name="&apos;event&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;refreshBtn&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+            </object_literal>
+            <property name="_opt" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </function>
+        <function name="singleRemove" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>删除单条数据</description>
+            <parameters>
+                <parameter name="object" type="Object">
+                    <description>对象节点</description>
+                </parameter>
+                <parameter name="id" type="Object">
+                    <description>数据id</description>
+                </parameter>
+                <parameter name="url" type="Object">
+                    <description>URL连接</description>
+                </parameter>
+            </parameters>
+            <object_literal name="defaults" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <property name="&apos;clickObj&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;url&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+                <property name="&apos;event&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+            </object_literal>
+            <property name="_opt" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </function>
+        <function name="BatchRemove" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>批量删除数据</description>
+            <parameters>
+                <parameter name="options" type="Object">
+                    <description>对象节点</description>
+                </parameter>
+            </parameters>
+            <object_literal name="defaults" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <property name="&apos;clickObj&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;url&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                </property>
+                <property name="&apos;event&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;refreshBtn&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+            </object_literal>
+            <property name="_opt" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </function>
+        <function name="updateStatus" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>更新一条数据的状态</description>
+            <parameters>
+                <parameter name="options" type="Object">
+                    <description>对象节点</description>
+                </parameter>
+            </parameters>
+            <object_literal name="defaults" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+                <property name="&apos;clickObj&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+                <property name="&apos;event&apos;" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+                </property>
+            </object_literal>
+            <property name="_opt" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </function>
+        <function name="getCheckedId" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>获取checkbox的值，以逗号连接</description>
+            <parameters>
+                <parameter name="object" type="String">
+                    <description>节点名称</description>
+                </parameter>
+            </parameters>
+            <property name="objName" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+            <property name="string" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="String">
+            </property>
+        </function>
+        <function name="RefreshThis" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="Function">
+            <description>刷新当前页面</description>
+            <parameters>
+                <parameter name="按钮名称" type="Object">
+                </parameter>
+            </parameters>
+            <property name="refreshBtn" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false" type="Object">
+            </property>
+        </function>
+    </object_literal>
+</javascript>

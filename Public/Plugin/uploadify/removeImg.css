@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+#pictureList
+{padding:10px;}
+#pictureList .removeImage
+{width:100px; height:100px; overflow:hidden; display:block; float:left; margin:5px; position:relative;
+border:2px solid #dcdcdc; background:#ffffff;}
+#pictureList .removeImage em
+{width:30px; height:30px; display:block; cursor:pointer; position:absolute; top:0px; right:0px; z-index:10;
+background:url(fancy_close.png) no-repeat;}
+#pictureList .removeImage font
+{width:32px; height:32px; display:block; position:absolute; top:50%; left:50%; margin-top:-16px; margin-left:-16px; z-index:10;
+background:url(loading2.gif) no-repeat;}

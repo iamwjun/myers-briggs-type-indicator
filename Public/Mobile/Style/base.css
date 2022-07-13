@@ -1,0 +1,35 @@
+@charset "utf-8";
+/**
+ * @author liangshanYong
+ */
+* { padding: 0; margin: 0; font-family: 微软雅黑; }
+
+body, article, section, h1, h2, hgroup, p, a, ul, ol, li, em, div, small, span, footer, canvas, figure, figcaption, input { padding: 0; margin: 0; }
+
+body { background-color: #FFF; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; font-size: 12px; }
+
+img { border: none; vertical-align: middle; }
+
+input:focus { outline: 0 none; -webkit-user-modify: read-write-plaintext-only; -webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+input[type=search] { -webkit-appearance: none; }
+
+*[hidden] { display: none !important; }
+
+a { text-decoration: none; cursor: pointer; outline: none; /*移除超链的虚线框 IE8,FF有用*/ hide-focus: expression(this.hideFocus=true); /*IE6、IE7*/ }
+
+a.autotel { text-decoration: none; color: inherit; }
+
+small, small em { font-size: 15px; font-style: normal; }
+
+em { font-style: normal; }
+
+ul { list-style: none; list-style-type: none; }
+
+.clear:after { clear: both; content: "."; display: block; font-size: 0; height: 0; line-height: 0; visibility: hidden; }
+
+.float-r { float: right; }
+
+.float-l { float: left; }
+
+

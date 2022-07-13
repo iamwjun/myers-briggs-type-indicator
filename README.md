@@ -1,2 +1,1 @@
-# myers-briggs-type-indicator
-MBTI test
+# MBTI test

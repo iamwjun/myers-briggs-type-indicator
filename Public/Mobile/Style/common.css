@@ -1,0 +1,56 @@
+body{max-width:720px;margin:auto;position:relative;}
+/*网站顶部公共模块*/
+.header{height:100px;overflow:hidden;margin:auto;background:#00a4c0 url(Images/log_icon.png) no-repeat center /auto 80px;position:fixed;top:0px;z-index:3;width:100%;max-width:720px;}
+.header .header_r{height:56px;width:56px;position:absolute;right:40px;top:22px;z-index:4;background:url(Images/head_r.png) no-repeat center;}
+.header .header_l{height:48px;width:70px;position:absolute;left:40px;top:26px;z-index:4;padding-left:50px;color:#fff;font-size:24px;line-height:48px;}
+.header .header_nva{background:url(Images/head_l.png) no-repeat left center;}
+.header .header_close{background:url(Images/head_c.png) no-repeat left center;}
+.header a{display:block;height:100%;width:calc(100% - 209px);margin:auto;padding:0;}
+/*菜单栏*/
+.nav_con{position:fixed;top:100px;background-color:rgba(0, 164, 192,.9);z-index:4;overflow-y:auto;bottom:0px;display:none;width:100%;max-width:720px;margin:auto;}
+.nav_con ul{width:90%;margin:auto;}
+.nav_con ul li.h_title{margin-top:60px;text-align:center;font-size:28px;color:#202020;}
+.nav_con ul li.h_title span{border-right:1px solid #202020;margin:0 30px;border-radius:8px;}
+.nav_con ul li.h_title a{padding:20px 40px;border:2px solid #fff;font-size:30px;color:#fff;display:inline-block;margin:auto auto 30px;}
+.nav_con ul li.h_list{font-size:28px;color:#fff;text-align:center;}
+.nav_con ul li.h_list span,a{padding:0 30px;padding-top:30px;display:inline-block;font-size:24px;color:#fff;}
+
+/*二维码*/
+.code_con{position:fixed;top:0px;background-color:rgba(0, 0, 0,.8);z-index:4;bottom:0px;display:none;width:100%;max-width:720px;margin:auto;}
+.code_con .code_div{height:100%;padding:0 30px;display:table;margin:auto;}
+.code_con .code_div .code_img{display:table-cell;vertical-align:middle;text-align:center;height:100%;}
+.code_con .code_div .code_img .code_img_con{position:relative;border:6px solid #00a4c0;}
+.code_con .code_div .code_img .code_img_con img{width:100%;}
+.code_con .code_div .code_img .code_img_con .code_close{height:90px;width:90px;position:absolute;left:50%;bottom:-48px;color:#fff;line-height:90px;font-size:36px;text-align:center;border-radius:100%;margin-left:-45px;background:url(Images/d_icon.png) no-repeat center;background-color:#00a4c0;}
+.code_con .code_div .code_img .code_img_con .code_cotent{position:absolute;top:0px;left:0px;right:0px;bottom:0px;z-index:999;}
+.code_con .code_div .code_img .code_img_con .code_cotent .code-log{height:126px;background:url(Images/code_log.png) no-repeat center;background-size:auto cover;margin-top:35px;}
+.code_con .code_div .code_img .code_img_con .code_cotent .code-list{width:100%;padding:60px 0 30px;}
+.code_con .code_div .code_img .code_img_con .code_cotent .code-list .code-li{width:50%;float:left;z-index:999}
+.code_con .code_div .code_img .code_img_con .code_cotent .code-txt{height:40px;background:url(Images/code_txt.png) no-repeat center;background-size:auto cover;}
+/**/
+.code_con2{position:fixed;top:0px;background-color:rgba(0, 0, 0,.8);z-index:4;bottom:0px;display:none;width:100%;max-width:720px;margin:auto;}
+.code_con2 .code_div{height:100%;padding:0 30px;display:table;margin:auto;}
+.code_con2 .code_div .code_img{display:table-cell;vertical-align:middle;text-align:center;height:100%;}
+.code_con2 .code_div .code_img .code_img_con{position:relative;border:6px solid #00a4c0;}
+.code_con2 .code_div .code_img .code_img_con img{width:100%;}
+.code_con2 .code_div .code_img .code_img_con .code_close{height:90px;width:90px;position:absolute;left:50%;bottom:-48px;color:#fff;line-height:90px;font-size:36px;text-align:center;border-radius:100%;margin-left:-45px;background:url(Images/d_icon.png) no-repeat center;background-color:#00a4c0;}
+.code_con2 .code_div .code_img .code_img_con .code_cotent{position:absolute;top:0px;left:0px;right:0px;bottom:0px;z-index:999;}
+.code_con2 .code_div .code_img .code_img_con .code_cotent .code-log{height:126px;background:url(Images/code_log.png) no-repeat center;background-size:auto cover;margin-top:35px;}
+.code_con2 .code_div .code_img .code_img_con .code_cotent .code-list{width:100%;padding:60px 0 30px;}
+.code_con2 .code_div .code_img .code_img_con .code_cotent .code-list .code-li{width:50%;float:left;z-index:999}
+.code_con2 .code_div .code_img .code_img_con .code_cotent .code-txt{height:40px;background:url(Images/code_txt.png) no-repeat center;background-size:auto cover;}
+/*网站底部公共模块*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

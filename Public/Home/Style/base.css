@@ -1,0 +1,189 @@
+@charset "utf-8";
+/**
+ * 基础样式(wap)
+ * @author liangshan Yong
+ */
+
+* {
+ padding: 0;
+ margin: 0;
+}
+
+body, article, section, h1, h2, hgroup, p, a, ul, ol, li, em, div, small, span, footer, canvas, figure, figcaption, input {
+ padding: 0;
+ margin: 0;
+}
+
+html, body, form {
+    width:100%;height:100%;
+}
+
+body {
+ background-color: #ffffff;
+ -webkit-tap-highlight-color: rgba(0,0,0,0);
+ font-size: 14px;
+ font-family:宋体;
+}
+
+img {
+ border: none;
+ vertical-align: middle;
+}
+
+input:focus {
+ outline: 0 none;
+ -webkit-user-modify: read-write-plaintext-only;
+ -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+input[type=search] {
+ -webkit-appearance: none;
+}
+
+*[hidden] {
+ display: none !important;
+}
+
+a {
+ text-decoration: none;
+ cursor: pointer;
+ outline: none; /*移除超链的虚线框 IE8,FF有用*/
+ hide-focus: expression(this.hideFocus=true); /*IE6、IE7*/
+}
+
+ a.autotel {
+  text-decoration: none;
+  color: inherit;
+ }
+
+small, small em {
+ font-size: 15px;
+ font-style: normal;
+}
+
+em {
+ font-style: normal;
+}
+
+ul {
+ list-style: none;
+ list-style-type: none;
+}
+
+figure[hidden] {
+ display: none;
+}
+
+.box:after {
+ clear: both;
+ display: block;
+ visibility: hidden;
+ height: 0;
+ content: ".";
+}
+
+.box {
+ *zoom: 1;
+}
+
+.inner {
+ display: block;
+ height: 100%;
+ /*padding: 0 7px;*/
+ text-align: center;
+}
+
+.center {
+ width: 320px;
+ margin: 0 auto;
+ position: relative;
+}
+
+.pdo {
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: inline-block;
+}
+
+ .pdo[hidden] {
+  display: none;
+ }
+
+.footFix {
+ width: 100%;
+ text-align: center;
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ z-index: 99;
+}
+
+.clear:after {
+ clear: both;
+ content: ".";
+ display: block;
+ font-size: 0;
+ height: 0;
+ line-height: 0;
+ visibility: hidden;
+}
+
+.index_head_wechat {
+ background-color: #ffffff;
+ height: 248px;
+ overflow-x: hidden;
+ overflow-y: hidden;
+ position: absolute;
+ top: 27px;
+ width: 196px;
+display:none;
+ z-index: 999;
+}
+
+.index_head_wechat_touiming {
+ background-attachment: scroll;
+ background-clip: border-box;
+ background-color: rgba(0, 0, 0, 0.2);
+ background-image: none;
+ background-origin: padding-box;
+ background-position: 0 0;
+ background-repeat: repeat;
+ background-size: auto auto;
+ height: 231px;
+ position: absolute;
+ right: -60px;
+ top: 53px;
+ width: 198px;
+ z-index: 994;
+ display: none;
+}
+
+
+/*菜单区*/
+.title_con {
+    position: absolute; top: 0px; z-index: 10; width: 100%;
+}
+/*内容区*/
+.content_div{
+    position: absolute; top: 0px; z-index: 9; width: 100%;
+}
+/*页面大小*/
+.content {width:90%;margin:auto;position:relative;background-color:#fff;}
+@media screen and (max-width: 900px) {
+    .content { width:810px;}
+} 
+@media screen and (min-width: 1600px) {
+    .content { width:1420px;}
+} 
+
+
+/*分页  原设计*/
+.pagecon{margin:40px auto auto;display:table;}
+.pagecon span{height:32px;display:block;font-size:14px;color:#585858;float:left;line-height:32px;margin:auto 5px}
+.pagecon a{display:block;height:30px;border:1px solid #e1e1e1;width:30px;background-image:url(Images/page-icon.png);background-repeat:no-repeat;float:left;margin:auto 5px}
+.pagecon a.prv{background-position:0px -27px;}
+.pagecon a.next{background-position:0px 0px;}
+.pagecon span.input{height:20px;padding:5px;width:75px;border:1px solid #e1e1e1;}
+.pagecon span.input input{height:100%;width:100%;line-height:20px;color:#585858;font-size:14px;border:none;display:block;}
+.pagecon a.btn{width:68px;line-height:30px;text-align:center;font-size:14px;color:#585858;background:none;}

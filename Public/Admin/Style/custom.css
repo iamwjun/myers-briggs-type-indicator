@@ -1,0 +1,197 @@
+/* 设置字体颜色 */
+.fontColorRed {
+	color:red;
+}
+.fontColorGreen {
+	color:green;
+}
+
+/* 设置table样式 */
+/*table tbody tr:hover td {
+	background:#eee;
+}*/
+
+/* 设置input宽高 */
+.width-200 {
+	width:200px;
+}
+.width-130 {
+	width:130px;
+}
+
+/* 设置a标签样式 */
+.link-06c {
+	color:#06c;
+}
+
+/* 设置字体颜色 */
+.color_red {
+	color:red;
+}
+.color_green {
+	color:green;
+}
+.color_blue {
+	color:blue;
+}
+
+/* 单图显示 */
+.singleImageShow {
+	padding:10px;
+}
+
+/* 当前位置及刷新栏样式 */
+#RefreshButton {
+	line-height:1.3em;
+	margin-top:3px
+}
+
+/* 排序列表框样式 */
+.Sequence-style,.Sequence-style2,.Sequence-style3 {
+	width:35%;
+}
+.Sequence-style2 {
+	margin-left:20%;
+}
+.Sequence-style3 {
+	margin-left:40%;
+}
+
+/* 状态列表样式 */
+td.status-style2 span {
+	margin-left:20%;
+}
+td.status-style3 span {
+	margin-left:40%;
+}
+
+/* 操作列表样式 */
+td.operation-style2 a:first-child {
+	margin-left:20%;
+}
+td.operation-style3 a:first-child {
+	margin-left:40%;
+}
+
+/* 编辑器样式 */
+#kindeditor {
+	width:100%;
+	height:200px;
+}
+
+/* 商品列表-商品信息 */
+.commodity-list-info {
+	line-height:35px;
+}
+.commodity-list-info strong {
+	font-size:14px;
+}
+.commodity-list-info strong.red {
+	color:red;
+}
+.commodity-list-info strong.green {
+	color:green;
+}
+.commodity-list-info strong.blue {
+	color:blue;
+}
+.commodity-list-info span {
+	width:30%;
+	display:inline-block;
+}
+
+/* uploadify样式 */
+.my-uploadify-button {
+    background:none;
+    border: none;
+    text-shadow: none;
+    border-radius:0;
+}
+.uploadify {
+	overflow:hidden;
+	margin-left:10px;
+}
+.uploadify:hover .my-uploadify-button {
+    background:none;
+    border: none;
+}
+
+.fileQueue {
+    width: 400px;
+    height: 150px;
+    overflow: auto;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 10px;
+}
+
+/* 自定义表单提交按钮加载中的样式 */
+.form-loading-button-box {
+	height:34px;
+	overflow:hidden;
+}
+.form-loading-button-box .form-loading-button-mask {
+	width:100%;
+	height:34px; 
+	position:relative; 
+	top:-43px;
+}
+.form-loading-button-box .sk-spinner .sk-circle::before {
+	background-color:#ffffff;
+}
+.form-loading-button {
+	text-indent:-9999px;
+}
+
+.config_grown_input
+{width:20%; text-align:center;}
+.config_upgrade_input
+{width:10%; text-align:center;}
+
+
+
+/* 分销奖励配置表单样式 */
+#formConfigFenxiaoRecommend .thisLayer
+{width:11%; height:31px; line-height:31px; overflow:hidden; float:left; color:#333; font-size:14px;
+ margin-right:1%; border:solid 1px #ddd;}
+#formConfigFenxiaoRecommend .thisLayer em
+{width:60px; height:31px; display:block; float:left; font-style:normal; text-align:center;}
+#formConfigFenxiaoRecommend .thisLayer font
+{width:22px; height:30px; display:block; float:right; text-align:center;}
+#formConfigFenxiaoRecommend .thisLayer input
+{width:34px; height:31px; float:left; text-align:center; border-top:none; border-bottom:none;}
+
+#formConfigFenxiaoTeam .thisLayer
+{width:12.5%; height:31px; line-height:31px; overflow:hidden; float:left; color:#333; font-size:14px;
+ margin-right:1%; border:solid 1px #ddd;}
+#formConfigFenxiaoTeam .thisLayer em
+{width:75px; height:31px; display:block; float:left; font-style:normal; text-align:center;}
+#formConfigFenxiaoTeam .thisLayer font
+{width:22px; height:30px; display:block; float:right; text-align:center;}
+#formConfigFenxiaoTeam .thisLayer input
+{width:34px; height:31px; float:left; text-align:center; border-top:none; border-bottom:none;}
+
+/* 订单-进度步骤样式 */
+#speed{width: 50%;margin: 0px auto;height: auto;position: relative;}
+#speed .line{height: 3px;widows: 100%;background: #7e7e7e;position: absolute;left: 0px;top: 10px;width: 100%;z-index: -1;}
+#speed ul{width 100%;}
+#speed ul li{float: left;text-align: center;position: relative;}
+#speed ul li:nth-child(1){width: 25%;text-align: left;}
+#speed ul li:nth-child(2){width: 50%;}
+#speed ul li:nth-child(3){width: 25%;text-align: right;float: right;}
+#speed ul li span{display: inline-block;width:20px;height: 20px;border-radius: 50%;background: #7e7e7e;margin-top: 1px;}
+#speed ul li .text{width: 80px;text-align: center;}
+#speed ul li:nth-child(1) .text{margin-left: -30px;}
+#speed ul li:nth-child(2) .text{margin-left: 50%;-moz-transform: translateX(-40px);-webkit-transform: translateX(-40px);-o-transform: translateX(-40px);-ms-transform: translateX(-40px);transform: translateX(-40px);}
+#speed ul li:nth-child(3) .text{margin-left:100%;-moz-transform: translateX(-50px);-webkit-transform: translateX(-40px);-o-transform: translateX(-50px);-ms-transform: translateX(-50px);transform: translateX(-50px);}
+#speed ul li .step_line{height: 3px;width: 100%;background: #7e7e7e;position: absolute;left: 0px;top:11px;}
+/*步骤一*/
+#speed ul.step1 li:nth-child(1) span{background: #14cd68;}
+#speed ul.step1 li:nth-child(1) .step_line{background: #14cd68;}
+/*步骤二*/
+#speed ul.step2 li:nth-child(1) span{background: #14cd68;}
+#speed ul.step2 li:nth-child(1) .step_line{background: #14cd68;}
+#speed ul.step2 li:nth-child(2) span{background: #14cd68;}
+#speed ul.step2 li:nth-child(2) .step_line{background: #14cd68;}
+/*步骤四*/
+#speed ul.step3 li span{background: #14cd68;}
+#speed ul.step3 li .step_line{background: #14cd68;}

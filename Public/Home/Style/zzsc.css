@@ -1,0 +1,29 @@
+
+.syntaxhighlighter a, .syntaxhighlighter div, .syntaxhighlighter code, .syntaxhighlighter table, .syntaxhighlighter table td, .syntaxhighlighter table tr, .syntaxhighlighter table tbody, .syntaxhighlighter table thead, .syntaxhighlighter table caption, .syntaxhighlighter textarea { background: none repeat scroll 0% 0% transparent ! important; border: 0px none ! important; bottom: auto ! important; float: none ! important; height: auto ! important; left: auto ! important; line-height: 1.1em ! important; margin: 0px ! important; outline: 0px none ! important; overflow: visible ! important; padding: 0px ! important; position: static ! important; right: auto ! important; text-align: left ! important; top: auto ! important; vertical-align: baseline ! important; width: auto ! important; box-sizing: content-box ! important; font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace ! important; font-weight: normal ! important; font-style: normal ! important; font-size: 1em ! important; min-height: inherit ! important; }
+.syntaxhighlighter { width: 100% ! important; margin: 1em 0px ! important; position: relative ! important; overflow: auto ! important; font-size: 1em ! important; }
+.syntaxhighlighter .line { white-space: pre ! important; }
+.syntaxhighlighter table { width: 100% ! important; }
+.syntaxhighlighter table td.code { width: 100% ! important; }
+.syntaxhighlighter table td.code .container { position: relative ! important; }
+.syntaxhighlighter table td.code .line { padding: 0px 1em ! important; }
+.syntaxhighlighter.nogutter td.code .container textarea, .syntaxhighlighter.nogutter td.code .line { padding-left: 0em ! important; }
+.syntaxhighlighter .toolbar { position: absolute ! important; right: 1px ! important; top: 1px ! important; width: 11px ! important; height: 11px ! important; font-size: 10px ! important; z-index: 10 ! important; }
+.syntaxhighlighter .toolbar a { display: block ! important; text-align: center ! important; text-decoration: none ! important; padding-top: 1px ! important; }
+
+.syntaxhighlighter { background-color: black ! important; }
+.syntaxhighlighter .line.alt1 { background-color: black ! important; }
+.syntaxhighlighter .line.alt2 { background-color: black ! important; }
+.syntaxhighlighter .toolbar { color: white ! important; background: none repeat scroll 0% 0% rgb(153, 0, 0) ! important; border: medium none ! important; }
+.syntaxhighlighter .toolbar a { color: white ! important; }
+.syntaxhighlighter .toolbar a:hover { color: rgb(156, 207, 244) ! important; }
+.syntaxhighlighter .plain, .syntaxhighlighter .plain a { color: rgb(211, 211, 211) ! important; }
+.syntaxhighlighter .string, .syntaxhighlighter .string a { color: rgb(255, 158, 123) ! important; }
+.syntaxhighlighter .keyword { color: aqua ! important; }
+.syntaxhighlighter .color1, .syntaxhighlighter .color1 a { color: rgb(235, 219, 141) ! important; }
+
+#content { margin: 0px auto 100px; max-width: 1200px; font-size: 16px; }
+#content .syntaxhighlighter { overflow-y: hidden ! important; }
+#content .syntaxhighlighter > table > tbody > tr > td.code { padding: 10px ! important; }
+#content .photo-license-toggle { margin: 0px auto; padding: 10px 0px; max-width: 1024px; text-align: right; }
+#content .photo-license { display: none; margin: 0px auto; max-width: 1024px; font-size: 0.8em; border: 1px dashed rgb(111, 111, 111); border-radius: 6px; padding: 15px 10px; line-height: 1.6em; }
+.example-animation { color: rgb(255, 255, 255); font-size: 60px; }

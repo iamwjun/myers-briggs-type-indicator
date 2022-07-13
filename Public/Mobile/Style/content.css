@@ -1,0 +1,110 @@
+
+body{max-width:720px;margin:auto;padding-top:100px;}
+/*=========================首页样式==========================*/
+
+/*banner*/
+.banner { width: 100%; }
+.slider {  overflow: hidden; position: relative; width: 100%; }
+.slides { height:100%;max-height: 269px; overflow: hidden; -webkit-backface-visibility: hidden; -webkit-transform-style: preserve-3d; -webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); -moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); -ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); -o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); }
+.slide { height: 100%; float: left; clear: none; width: 100%; }
+.slider-arrows { }
+.slider-arrow { position: absolute; display: block; margin-bottom: -20px; width: 45px; height: 70px; line-height: 60px; text-decoration: none; text-align: center; color: #fff; font-size: 2em; }
+.slider-arrow--right { bottom: 50%; right: 30px; background-position: -103px -12px; }
+.slider-arrow--left { bottom: 50%; left: 30px; background-position: -10px -12px; }
+.slider-nav { position: absolute; bottom: 30px; }
+.slider-nav__item { background:url(Images/page_img.png) no-repeat center;width: 24px; height: 24px; float: left; clear: none; display: block; margin: 0 5px; border-radius: 10px; padding:0;}
+.slider-nav__item:hover { background:url(Images/page_img_on.png) no-repeat center; border: 0px; width: 24px; height: 24px; }
+.slider-nav__item--current { background:url(Images/page_img_on.png) no-repeat center; border: 0px; width: 24px; height: 24px; }
+.banner_img { width: 100%; position: relative; height:100%;}
+.banner_img img { width: 100%; }
+.banner_img .banner_back { height: 196px; width: 100%; position: absolute; bottom: 0px; left: 0px; }
+.banner_img .banner_back .banner_title { height: 50px; line-height: 50px; font-size: 36px; color: #ffffff; width: 100%; text-align: center; margin-top: 90px; }
+.hide_div { width: 27px; height: 61px; cursor: pointer; display: none; position: absolute; top: 246px; right: 40px; z-index: 998; }
+
+/*介绍*/
+.home_intro{width:auto;margin:auto;min-height:130px;padding:40px 0;display:table;}
+.home_intro .intro_con{width:156px;padding:25px 10px;/*border-right:1px dashed #828282;*/border-right:1px solid #cbcbcb;float:left;}
+.home_intro .no_bor{border:0 none;}
+.home_intro .intro_con .info_num{font-family:宋体;font-size:48px;color:#00a4c0;text-align:center;overflow:hidden;}
+.home_intro .intro_con .info_txt{font-size:18px;color:#000000;text-align:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+
+/*首页 - 鸟瞰麓湖*/
+.home_view{min-height:240px;padding:0 20px;margin:auto;position:relative;text-align:center;overflow:hidden;margin-bottom:40px;}
+.home_view .home_view_log{position:absolute;top:0;bottom:0px;left:0px;right:0px;background:url(Images/view_log.png) no-repeat center;}
+.home_view img{width:100%;}
+
+/*分割线*/
+.home_line{height:10px;background-color:#f6f6f6;border-top:1px solid #cbcbcb;border-bottom:1px solid #cbcbcb;}
+
+/*麓湖置业*/
+.home_lhzy_log{height:76px;width:100%;background:url(Images/lhzy_log.png) no-repeat center;margin:50px 0;}
+.home_lhzy_list{padding:0 15px 45px;}
+.home_lhzy_list ul{width:100%;}
+.home_lhzy_list ul li{width:33.333%;float:left;}
+.home_lhzy_list ul li .lhzy_list_con{padding:0 5px;position:relative;overflow:hidden;display:block;}
+.home_lhzy_list ul li .lhzy_list_con img{width:100%;}
+.home_lhzy_list ul li .lhzy_list_con .lhzy_list_title{position:absolute;top:20%;width:100%;text-align:center;color:#fff;font-size:30px;font-weight:600;}
+
+/*底部分割区*/
+.home_bottom{padding:0 20px;overflow:hidden;position:relative;overflow:hidden;margin-bottom:45px;}
+.home_bottom img{width:100%;}
+.home_bottom .bottom_log{position:absolute;top:0px;left:0px;right:0px;bottom:0px;background:url(Images/home_bottom.png) no-repeat center;}
+
+.home_bottom_txt{padding:0 35px;}
+.home_bottom_txt .bottom_txt{padding-bottom:15px;font-size:22px;color:#7e7e7e;}
+.home_bottom_txt .bottom_txt a{color:#00a4c0;padding-left:10px;}
+
+/*地图*/
+#pageContent {width: 720px;height:900px;overflow: hidden;position:relative;margin:auto;}
+#imgContainer {width: 720px;height: 100%;}
+.positionMapClass area {cursor: pointer;}
+.zoomButton {border: 0;cursor: pointer;}
+.zoomableContainer {background-image: url("assets/transparent.png");}
+.map_bottom{width:100%;height:146px;line-height:146px;color:#363636;font-size:30px;text-align:center;position:fixed;bottom:0px;background-color:#fff;max-width:720px;margin:auto;}
+/*时间轴*/
+.time_div{width:720px;margin:auto;}
+.time_div ul{margin-left:50px;border-left:1px solid #c7c7c7;padding:80px 0px;}
+.time_div ul li{padding-left:42px;padding-right:50px;margin-bottom:60px;}
+.time_div ul li .time{color:#454545;font-size:46px;height:80px;position:relative;font-family:微软雅黑;}
+.time_div ul li .time .ico{position:absolute;left:-57px;top:12px;width:30px;height:30px;background:url(/App_Themes/Default/Images/time_ico.png) no-repeat 0px 0px;}
+.time_div ul li .txt{color:#616161;font-size:24px;line-height:36px;word-break: break-all;}
+.time_bottom{width:100%;height:80px;background:url(/App_Themes/Default/Images/time_bottom.png) no-repeat center 0px;position:fixed;bottom:0px;left:0px;}
+/*建筑空间*/
+.content_div .building_banner{width:100%;max-height:320px;overflow:hidden;}/**/
+.content_div .building_banner img{width:100%;}/**/
+.content_div .building_title{background:url(/App_Themes/Default/Images/building_title.png) no-repeat center center;}/**/
+.content_div ul#building{width:100%;margin-bottom:98px;}/**/
+.content_div ul li{width:100%;margin-top:21px;position:relative;}/**/
+.content_div ul li .building_img{width:100%;height:336px;overflow:hidden;}/**/
+.content_div ul li .building_img img{width:100%;}/**/
+.content_div ul li .building_txt{position:absolute;left:0px;top:0px;width:100%;height:100%;background-color:rgba(0,0,0,.5);text-align:center;}/**/
+.content_div ul li .building_txt .building_name{width:100%;color:#fff;font-size:30px;height:40px;text-align:center;margin-top:72px;margin-bottom:35px;}/**/
+.content_div ul li .building_txt .building_mark{color:#fff;font-size:22px;height:25px;text-align:center;margin-bottom:44px;padding:0 15px;overflow:hidden;line-height:25px;text-overflow:ellipsis;white-space:nowrap;}/*width:100%;*/
+.content_div ul li .building_txt .building_link{/*width:144px;height:46px;line-height:46px;*/color:#fff;font-size:20px;text-align:center;border:1px solid #fff;margin:auto;padding:5px 20px;}/**/
+/*鸟瞰麓湖*/
+.content_div{width:720px;margin:auto;}
+.content_div .airview_banner{width:100%;max-height:320px;overflow:hidden;}
+.content_div .airview_banner img{width:100%;}
+.content_div .nav_title{width:100%;height:80px;margin-top:56px;margin-bottom:34px;}
+.content_div .airview_title{background:url(/App_Themes/Default/Images/airview_title.png) no-repeat center center;}
+.content_div ul#airview{width:100%;margin:auto;margin-bottom:98px;background-color:#f6f6f6;}
+.content_div ul li{width:100%;border-top:1px solid #cbcbcb;border-bottom:1px solid #cbcbcb;margin-top:12px;background-color:#fff;}
+.content_div ul li .airview_img{width:680px;max-height:200px;margin:auto;margin-top:29px;overflow:hidden;}
+.content_div ul li .airview_img img{width:100%;}
+.content_div ul li .airview_txt{color:#363636;font-size:22px;text-align:center;height:95px;line-height:95px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;padding:0 20px;}
+.content_next{width:100%;height:98px;position:fixed;bottom:0px;left:0px;background:#fff url(/App_Themes/Default/Images/airview_next.png) no-repeat center center;} 
+.display_div{width:100%;height:100%;background-color:rgba(0,0,0,.8);position:fixed;top:0px;left:0px;display:none;}
+.display_div .airview_himg{width:720px;background-color:#fff;margin:auto;margin-top:225px;text-align:center;padding-top:15px;}
+.display_div .airview_himg img{width:690px;}
+.display_div .airview_htxt{width:680px;padding:20px;color:#414141;font-size:22px;overflow:hidden;background-color:#fff;margin:auto;text-align:center;line-height:30px}
+
+/*关于麓湖*/
+.about_content{padding:30px 20px;word-break:break-all;}
+.about_content img{max-width:100%;}
+
+.about_bottom{border-top:1px solid #cbcbcb;position:fixed;bottom:0px;left:0px;z-index:1;right:0px;}
+.about_bottom ul{width:100%;height:100%;background-color:#f8f8f8;}
+.about_bottom ul li{width:50%;border-top:6px solid #f8f8f8;background-color:#f8f8f8;font-size:30px;color:#383838;text-align:center;float:left;padding:30px 0px;}
+.about_bottom ul li.on{border-top-color:#00a4c0;}
+
+.no_msg{width:100%;height:100px;line-height:100px;color:#616161;font-size:24px;text-align:center;}
